@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81B65061F0E483E007049D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65051F0E483E007049D0 /* AppDelegate.swift */; };
+		D81B65081F0E483E007049D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65071F0E483E007049D0 /* ViewController.swift */; };
+		D81B650B1F0E483E007049D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81B65091F0E483E007049D0 /* Main.storyboard */; };
+		D81B650E1F0E483E007049D0 /* Ambient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */; };
+		D81B65101F0E483E007049D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81B650F1F0E483E007049D0 /* Assets.xcassets */; };
+		D81B65131F0E483E007049D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81B65111F0E483E007049D0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D81B65021F0E483E007049D0 /* Ambient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81B65051F0E483E007049D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D81B65071F0E483E007049D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D81B650A1F0E483E007049D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D81B650D1F0E483E007049D0 /* Ambient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ambient.xcdatamodel; sourceTree = "<group>"; };
+		D81B650F1F0E483E007049D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D81B65121F0E483E007049D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D81B65141F0E483E007049D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81B64FF1F0E483E007049D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D81B64F91F0E483E007049D0 = {
+			isa = PBXGroup;
+			children = (
+				D81B65041F0E483E007049D0 /* Ambient */,
+				D81B65031F0E483E007049D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81B65031F0E483E007049D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81B65021F0E483E007049D0 /* Ambient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81B65041F0E483E007049D0 /* Ambient */ = {
+			isa = PBXGroup;
+			children = (
+				D81B65051F0E483E007049D0 /* AppDelegate.swift */,
+				D81B65071F0E483E007049D0 /* ViewController.swift */,
+				D81B65091F0E483E007049D0 /* Main.storyboard */,
+				D81B650F1F0E483E007049D0 /* Assets.xcassets */,
+				D81B65111F0E483E007049D0 /* LaunchScreen.storyboard */,
+				D81B65141F0E483E007049D0 /* Info.plist */,
+				D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */,
+			);
+			path = Ambient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81B65011F0E483E007049D0 /* Ambient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81B65171F0E483E007049D0 /* Build configuration list for PBXNativeTarget "Ambient" */;
+			buildPhases = (
+				D81B64FE1F0E483E007049D0 /* Sources */,
+				D81B64FF1F0E483E007049D0 /* Frameworks */,
+				D81B65001F0E483E007049D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ambient;
+			productName = Ambient;
+			productReference = D81B65021F0E483E007049D0 /* Ambient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81B64FA1F0E483E007049D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vitaly Plivachuk";
+				TargetAttributes = {
+					D81B65011F0E483E007049D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8JL4LXHDE2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D81B64FD1F0E483E007049D0 /* Build configuration list for PBXProject "Ambient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D81B64F91F0E483E007049D0;
+			productRefGroup = D81B65031F0E483E007049D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81B65011F0E483E007049D0 /* Ambient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81B65001F0E483E007049D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81B65131F0E483E007049D0 /* LaunchScreen.storyboard in Resources */,
+				D81B65101F0E483E007049D0 /* Assets.xcassets in Resources */,
+				D81B650B1F0E483E007049D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81B64FE1F0E483E007049D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81B65081F0E483E007049D0 /* ViewController.swift in Sources */,
+				D81B650E1F0E483E007049D0 /* Ambient.xcdatamodeld in Sources */,
+				D81B65061F0E483E007049D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D81B65091F0E483E007049D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81B650A1F0E483E007049D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D81B65111F0E483E007049D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81B65121F0E483E007049D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D81B65151F0E483E007049D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D81B65161F0E483E007049D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81B65181F0E483E007049D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JL4LXHDE2;
+				INFOPLIST_FILE = Ambient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaly-plivachuk.Ambient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D81B65191F0E483E007049D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8JL4LXHDE2;
+				INFOPLIST_FILE = Ambient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaly-plivachuk.Ambient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81B64FD1F0E483E007049D0 /* Build configuration list for PBXProject "Ambient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81B65151F0E483E007049D0 /* Debug */,
+				D81B65161F0E483E007049D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81B65171F0E483E007049D0 /* Build configuration list for PBXNativeTarget "Ambient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81B65181F0E483E007049D0 /* Debug */,
+				D81B65191F0E483E007049D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D81B650D1F0E483E007049D0 /* Ambient.xcdatamodel */,
+			);
+			currentVersion = D81B650D1F0E483E007049D0 /* Ambient.xcdatamodel */;
+			path = Ambient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D81B64FA1F0E483E007049D0 /* Project object */;
+}
