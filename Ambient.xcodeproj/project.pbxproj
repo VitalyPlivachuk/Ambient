@@ -8,22 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		D81B65061F0E483E007049D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65051F0E483E007049D0 /* AppDelegate.swift */; };
-		D81B65081F0E483E007049D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65071F0E483E007049D0 /* ViewController.swift */; };
+		D81B65081F0E483E007049D0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65071F0E483E007049D0 /* PlayerViewController.swift */; };
 		D81B650B1F0E483E007049D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81B65091F0E483E007049D0 /* Main.storyboard */; };
 		D81B650E1F0E483E007049D0 /* Ambient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */; };
 		D81B65101F0E483E007049D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81B650F1F0E483E007049D0 /* Assets.xcassets */; };
 		D81B65131F0E483E007049D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81B65111F0E483E007049D0 /* LaunchScreen.storyboard */; };
+		D81B651B1F10B4C3007049D0 /* AmbientSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B651A1F10B4C3007049D0 /* AmbientSound.swift */; };
+		D81B65291F10B8FC007049D0 /* Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B651D1F10B8FC007049D0 /* Birds.mp3 */; };
+		D81B652A1F10B8FC007049D0 /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B651E1F10B8FC007049D0 /* Cat.mp3 */; };
+		D81B652B1F10B8FC007049D0 /* Dolpnins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B651F1F10B8FC007049D0 /* Dolpnins.mp3 */; };
+		D81B652C1F10B8FC007049D0 /* Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65201F10B8FC007049D0 /* Fire.mp3 */; };
+		D81B652D1F10B8FC007049D0 /* Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65211F10B8FC007049D0 /* Forest.mp3 */; };
+		D81B652E1F10B8FC007049D0 /* Island.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65221F10B8FC007049D0 /* Island.mp3 */; };
+		D81B652F1F10B8FC007049D0 /* Night forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65231F10B8FC007049D0 /* Night forest.mp3 */; };
+		D81B65301F10B8FC007049D0 /* Rain and thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65241F10B8FC007049D0 /* Rain and thunder.mp3 */; };
+		D81B65311F10B8FC007049D0 /* Sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65251F10B8FC007049D0 /* Sea.mp3 */; };
+		D81B65321F10B8FC007049D0 /* Tropic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65261F10B8FC007049D0 /* Tropic.mp3 */; };
+		D81B65331F10B8FC007049D0 /* Village.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65271F10B8FC007049D0 /* Village.mp3 */; };
+		D81B65341F10B8FC007049D0 /* Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65281F10B8FC007049D0 /* Wolf.mp3 */; };
+		D81B65361F10BEC4007049D0 /* SoundsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65351F10BEC4007049D0 /* SoundsListTableViewController.swift */; };
+		D81B65381F10D02E007049D0 /* SoundsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65371F10D02E007049D0 /* SoundsListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81B65021F0E483E007049D0 /* Ambient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81B65051F0E483E007049D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D81B65071F0E483E007049D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D81B65071F0E483E007049D0 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		D81B650A1F0E483E007049D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D81B650D1F0E483E007049D0 /* Ambient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ambient.xcdatamodel; sourceTree = "<group>"; };
 		D81B650F1F0E483E007049D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81B65121F0E483E007049D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D81B65141F0E483E007049D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81B651A1F10B4C3007049D0 /* AmbientSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbientSound.swift; sourceTree = "<group>"; };
+		D81B651D1F10B8FC007049D0 /* Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Birds.mp3; sourceTree = "<group>"; };
+		D81B651E1F10B8FC007049D0 /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat.mp3; sourceTree = "<group>"; };
+		D81B651F1F10B8FC007049D0 /* Dolpnins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dolpnins.mp3; sourceTree = "<group>"; };
+		D81B65201F10B8FC007049D0 /* Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fire.mp3; sourceTree = "<group>"; };
+		D81B65211F10B8FC007049D0 /* Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Forest.mp3; sourceTree = "<group>"; };
+		D81B65221F10B8FC007049D0 /* Island.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Island.mp3; sourceTree = "<group>"; };
+		D81B65231F10B8FC007049D0 /* Night forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Night forest.mp3"; sourceTree = "<group>"; };
+		D81B65241F10B8FC007049D0 /* Rain and thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rain and thunder.mp3"; sourceTree = "<group>"; };
+		D81B65251F10B8FC007049D0 /* Sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sea.mp3; sourceTree = "<group>"; };
+		D81B65261F10B8FC007049D0 /* Tropic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tropic.mp3; sourceTree = "<group>"; };
+		D81B65271F10B8FC007049D0 /* Village.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Village.mp3; sourceTree = "<group>"; };
+		D81B65281F10B8FC007049D0 /* Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wolf.mp3; sourceTree = "<group>"; };
+		D81B65351F10BEC4007049D0 /* SoundsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsListTableViewController.swift; sourceTree = "<group>"; };
+		D81B65371F10D02E007049D0 /* SoundsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,38 @@
 		D81B65041F0E483E007049D0 /* Ambient */ = {
 			isa = PBXGroup;
 			children = (
+				D81B651C1F10B822007049D0 /* AmbientSounds */,
 				D81B65051F0E483E007049D0 /* AppDelegate.swift */,
-				D81B65071F0E483E007049D0 /* ViewController.swift */,
 				D81B65091F0E483E007049D0 /* Main.storyboard */,
+				D81B65071F0E483E007049D0 /* PlayerViewController.swift */,
+				D81B65371F10D02E007049D0 /* SoundsListTableViewCell.swift */,
+				D81B65351F10BEC4007049D0 /* SoundsListTableViewController.swift */,
 				D81B650F1F0E483E007049D0 /* Assets.xcassets */,
 				D81B65111F0E483E007049D0 /* LaunchScreen.storyboard */,
 				D81B65141F0E483E007049D0 /* Info.plist */,
 				D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */,
+				D81B651A1F10B4C3007049D0 /* AmbientSound.swift */,
 			);
 			path = Ambient;
+			sourceTree = "<group>";
+		};
+		D81B651C1F10B822007049D0 /* AmbientSounds */ = {
+			isa = PBXGroup;
+			children = (
+				D81B651D1F10B8FC007049D0 /* Birds.mp3 */,
+				D81B651E1F10B8FC007049D0 /* Cat.mp3 */,
+				D81B651F1F10B8FC007049D0 /* Dolpnins.mp3 */,
+				D81B65201F10B8FC007049D0 /* Fire.mp3 */,
+				D81B65211F10B8FC007049D0 /* Forest.mp3 */,
+				D81B65221F10B8FC007049D0 /* Island.mp3 */,
+				D81B65231F10B8FC007049D0 /* Night forest.mp3 */,
+				D81B65241F10B8FC007049D0 /* Rain and thunder.mp3 */,
+				D81B65251F10B8FC007049D0 /* Sea.mp3 */,
+				D81B65261F10B8FC007049D0 /* Tropic.mp3 */,
+				D81B65271F10B8FC007049D0 /* Village.mp3 */,
+				D81B65281F10B8FC007049D0 /* Wolf.mp3 */,
+			);
+			name = AmbientSounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +154,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 8JL4LXHDE2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,9 +185,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81B652C1F10B8FC007049D0 /* Fire.mp3 in Resources */,
 				D81B65131F0E483E007049D0 /* LaunchScreen.storyboard in Resources */,
 				D81B65101F0E483E007049D0 /* Assets.xcassets in Resources */,
+				D81B652F1F10B8FC007049D0 /* Night forest.mp3 in Resources */,
+				D81B652D1F10B8FC007049D0 /* Forest.mp3 in Resources */,
+				D81B652E1F10B8FC007049D0 /* Island.mp3 in Resources */,
+				D81B65311F10B8FC007049D0 /* Sea.mp3 in Resources */,
+				D81B65331F10B8FC007049D0 /* Village.mp3 in Resources */,
 				D81B650B1F0E483E007049D0 /* Main.storyboard in Resources */,
+				D81B652B1F10B8FC007049D0 /* Dolpnins.mp3 in Resources */,
+				D81B65321F10B8FC007049D0 /* Tropic.mp3 in Resources */,
+				D81B652A1F10B8FC007049D0 /* Cat.mp3 in Resources */,
+				D81B65341F10B8FC007049D0 /* Wolf.mp3 in Resources */,
+				D81B65291F10B8FC007049D0 /* Birds.mp3 in Resources */,
+				D81B65301F10B8FC007049D0 /* Rain and thunder.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81B65081F0E483E007049D0 /* ViewController.swift in Sources */,
+				D81B651B1F10B4C3007049D0 /* AmbientSound.swift in Sources */,
+				D81B65081F0E483E007049D0 /* PlayerViewController.swift in Sources */,
+				D81B65361F10BEC4007049D0 /* SoundsListTableViewController.swift in Sources */,
+				D81B65381F10D02E007049D0 /* SoundsListTableViewCell.swift in Sources */,
 				D81B650E1F0E483E007049D0 /* Ambient.xcdatamodeld in Sources */,
 				D81B65061F0E483E007049D0 /* AppDelegate.swift in Sources */,
 			);
@@ -269,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = Ambient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaly-plivachuk.Ambient";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = Ambient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitaly-plivachuk.Ambient";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,6 +383,7 @@
 				D81B65191F0E483E007049D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
