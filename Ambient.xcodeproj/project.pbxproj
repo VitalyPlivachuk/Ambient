@@ -10,24 +10,24 @@
 		D81B65061F0E483E007049D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65051F0E483E007049D0 /* AppDelegate.swift */; };
 		D81B65081F0E483E007049D0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65071F0E483E007049D0 /* PlayerViewController.swift */; };
 		D81B650B1F0E483E007049D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81B65091F0E483E007049D0 /* Main.storyboard */; };
-		D81B650E1F0E483E007049D0 /* Ambient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */; };
 		D81B65101F0E483E007049D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81B650F1F0E483E007049D0 /* Assets.xcassets */; };
 		D81B65131F0E483E007049D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81B65111F0E483E007049D0 /* LaunchScreen.storyboard */; };
 		D81B651B1F10B4C3007049D0 /* AmbientSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B651A1F10B4C3007049D0 /* AmbientSound.swift */; };
-		D81B65291F10B8FC007049D0 /* Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B651D1F10B8FC007049D0 /* Birds.mp3 */; };
-		D81B652A1F10B8FC007049D0 /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B651E1F10B8FC007049D0 /* Cat.mp3 */; };
-		D81B652B1F10B8FC007049D0 /* Dolpnins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B651F1F10B8FC007049D0 /* Dolpnins.mp3 */; };
-		D81B652C1F10B8FC007049D0 /* Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65201F10B8FC007049D0 /* Fire.mp3 */; };
-		D81B652D1F10B8FC007049D0 /* Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65211F10B8FC007049D0 /* Forest.mp3 */; };
-		D81B652E1F10B8FC007049D0 /* Island.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65221F10B8FC007049D0 /* Island.mp3 */; };
-		D81B652F1F10B8FC007049D0 /* Night forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65231F10B8FC007049D0 /* Night forest.mp3 */; };
-		D81B65301F10B8FC007049D0 /* Rain and thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65241F10B8FC007049D0 /* Rain and thunder.mp3 */; };
-		D81B65311F10B8FC007049D0 /* Sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65251F10B8FC007049D0 /* Sea.mp3 */; };
-		D81B65321F10B8FC007049D0 /* Tropic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65261F10B8FC007049D0 /* Tropic.mp3 */; };
-		D81B65331F10B8FC007049D0 /* Village.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65271F10B8FC007049D0 /* Village.mp3 */; };
-		D81B65341F10B8FC007049D0 /* Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D81B65281F10B8FC007049D0 /* Wolf.mp3 */; };
 		D81B65361F10BEC4007049D0 /* SoundsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65351F10BEC4007049D0 /* SoundsListTableViewController.swift */; };
 		D81B65381F10D02E007049D0 /* SoundsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B65371F10D02E007049D0 /* SoundsListTableViewCell.swift */; };
+		D83A66351F167389003652FE /* Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A66291F167389003652FE /* Birds.mp3 */; };
+		D83A66361F167389003652FE /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A662A1F167389003652FE /* Cat.mp3 */; };
+		D83A66371F167389003652FE /* Dolphins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A662B1F167389003652FE /* Dolphins.mp3 */; };
+		D83A66381F167389003652FE /* Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A662C1F167389003652FE /* Fire.mp3 */; };
+		D83A66391F167389003652FE /* Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A662D1F167389003652FE /* Forest.mp3 */; };
+		D83A663A1F167389003652FE /* Island.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A662E1F167389003652FE /* Island.mp3 */; };
+		D83A663B1F167389003652FE /* Night forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A662F1F167389003652FE /* Night forest.mp3 */; };
+		D83A663C1F167389003652FE /* Rain and thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A66301F167389003652FE /* Rain and thunder.mp3 */; };
+		D83A663D1F167389003652FE /* Sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A66311F167389003652FE /* Sea.mp3 */; };
+		D83A663E1F167389003652FE /* Tropic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A66321F167389003652FE /* Tropic.mp3 */; };
+		D83A663F1F167389003652FE /* Village.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A66331F167389003652FE /* Village.mp3 */; };
+		D83A66401F167389003652FE /* Wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D83A66341F167389003652FE /* Wolf.mp3 */; };
+		D8E12D371F165FB7004812CD /* TimerSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E12D361F165FB7004812CD /* TimerSetupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,25 +35,25 @@
 		D81B65051F0E483E007049D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D81B65071F0E483E007049D0 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		D81B650A1F0E483E007049D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D81B650D1F0E483E007049D0 /* Ambient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ambient.xcdatamodel; sourceTree = "<group>"; };
 		D81B650F1F0E483E007049D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81B65121F0E483E007049D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D81B65141F0E483E007049D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D81B651A1F10B4C3007049D0 /* AmbientSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbientSound.swift; sourceTree = "<group>"; };
-		D81B651D1F10B8FC007049D0 /* Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Birds.mp3; sourceTree = "<group>"; };
-		D81B651E1F10B8FC007049D0 /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat.mp3; sourceTree = "<group>"; };
-		D81B651F1F10B8FC007049D0 /* Dolpnins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dolpnins.mp3; sourceTree = "<group>"; };
-		D81B65201F10B8FC007049D0 /* Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fire.mp3; sourceTree = "<group>"; };
-		D81B65211F10B8FC007049D0 /* Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Forest.mp3; sourceTree = "<group>"; };
-		D81B65221F10B8FC007049D0 /* Island.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Island.mp3; sourceTree = "<group>"; };
-		D81B65231F10B8FC007049D0 /* Night forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Night forest.mp3"; sourceTree = "<group>"; };
-		D81B65241F10B8FC007049D0 /* Rain and thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rain and thunder.mp3"; sourceTree = "<group>"; };
-		D81B65251F10B8FC007049D0 /* Sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sea.mp3; sourceTree = "<group>"; };
-		D81B65261F10B8FC007049D0 /* Tropic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tropic.mp3; sourceTree = "<group>"; };
-		D81B65271F10B8FC007049D0 /* Village.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Village.mp3; sourceTree = "<group>"; };
-		D81B65281F10B8FC007049D0 /* Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wolf.mp3; sourceTree = "<group>"; };
 		D81B65351F10BEC4007049D0 /* SoundsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsListTableViewController.swift; sourceTree = "<group>"; };
 		D81B65371F10D02E007049D0 /* SoundsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsListTableViewCell.swift; sourceTree = "<group>"; };
+		D83A66291F167389003652FE /* Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Birds.mp3; path = AmbientSounds/Birds.mp3; sourceTree = "<group>"; };
+		D83A662A1F167389003652FE /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Cat.mp3; path = AmbientSounds/Cat.mp3; sourceTree = "<group>"; };
+		D83A662B1F167389003652FE /* Dolphins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dolphins.mp3; path = AmbientSounds/Dolphins.mp3; sourceTree = "<group>"; };
+		D83A662C1F167389003652FE /* Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fire.mp3; path = AmbientSounds/Fire.mp3; sourceTree = "<group>"; };
+		D83A662D1F167389003652FE /* Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Forest.mp3; path = AmbientSounds/Forest.mp3; sourceTree = "<group>"; };
+		D83A662E1F167389003652FE /* Island.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Island.mp3; path = AmbientSounds/Island.mp3; sourceTree = "<group>"; };
+		D83A662F1F167389003652FE /* Night forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Night forest.mp3"; path = "AmbientSounds/Night forest.mp3"; sourceTree = "<group>"; };
+		D83A66301F167389003652FE /* Rain and thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Rain and thunder.mp3"; path = "AmbientSounds/Rain and thunder.mp3"; sourceTree = "<group>"; };
+		D83A66311F167389003652FE /* Sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sea.mp3; path = AmbientSounds/Sea.mp3; sourceTree = "<group>"; };
+		D83A66321F167389003652FE /* Tropic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tropic.mp3; path = AmbientSounds/Tropic.mp3; sourceTree = "<group>"; };
+		D83A66331F167389003652FE /* Village.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Village.mp3; path = AmbientSounds/Village.mp3; sourceTree = "<group>"; };
+		D83A66341F167389003652FE /* Wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Wolf.mp3; path = AmbientSounds/Wolf.mp3; sourceTree = "<group>"; };
+		D8E12D361F165FB7004812CD /* TimerSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSetupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,14 +89,14 @@
 				D81B651C1F10B822007049D0 /* AmbientSounds */,
 				D81B65051F0E483E007049D0 /* AppDelegate.swift */,
 				D81B65091F0E483E007049D0 /* Main.storyboard */,
+				D8E12D361F165FB7004812CD /* TimerSetupViewController.swift */,
 				D81B65071F0E483E007049D0 /* PlayerViewController.swift */,
 				D81B65371F10D02E007049D0 /* SoundsListTableViewCell.swift */,
 				D81B65351F10BEC4007049D0 /* SoundsListTableViewController.swift */,
+				D81B651A1F10B4C3007049D0 /* AmbientSound.swift */,
 				D81B650F1F0E483E007049D0 /* Assets.xcassets */,
 				D81B65111F0E483E007049D0 /* LaunchScreen.storyboard */,
 				D81B65141F0E483E007049D0 /* Info.plist */,
-				D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */,
-				D81B651A1F10B4C3007049D0 /* AmbientSound.swift */,
 			);
 			path = Ambient;
 			sourceTree = "<group>";
@@ -104,18 +104,18 @@
 		D81B651C1F10B822007049D0 /* AmbientSounds */ = {
 			isa = PBXGroup;
 			children = (
-				D81B651D1F10B8FC007049D0 /* Birds.mp3 */,
-				D81B651E1F10B8FC007049D0 /* Cat.mp3 */,
-				D81B651F1F10B8FC007049D0 /* Dolpnins.mp3 */,
-				D81B65201F10B8FC007049D0 /* Fire.mp3 */,
-				D81B65211F10B8FC007049D0 /* Forest.mp3 */,
-				D81B65221F10B8FC007049D0 /* Island.mp3 */,
-				D81B65231F10B8FC007049D0 /* Night forest.mp3 */,
-				D81B65241F10B8FC007049D0 /* Rain and thunder.mp3 */,
-				D81B65251F10B8FC007049D0 /* Sea.mp3 */,
-				D81B65261F10B8FC007049D0 /* Tropic.mp3 */,
-				D81B65271F10B8FC007049D0 /* Village.mp3 */,
-				D81B65281F10B8FC007049D0 /* Wolf.mp3 */,
+				D83A66291F167389003652FE /* Birds.mp3 */,
+				D83A662A1F167389003652FE /* Cat.mp3 */,
+				D83A662B1F167389003652FE /* Dolphins.mp3 */,
+				D83A662C1F167389003652FE /* Fire.mp3 */,
+				D83A662D1F167389003652FE /* Forest.mp3 */,
+				D83A662E1F167389003652FE /* Island.mp3 */,
+				D83A662F1F167389003652FE /* Night forest.mp3 */,
+				D83A66301F167389003652FE /* Rain and thunder.mp3 */,
+				D83A66311F167389003652FE /* Sea.mp3 */,
+				D83A66321F167389003652FE /* Tropic.mp3 */,
+				D83A66331F167389003652FE /* Village.mp3 */,
+				D83A66341F167389003652FE /* Wolf.mp3 */,
 			);
 			name = AmbientSounds;
 			sourceTree = "<group>";
@@ -185,21 +185,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81B652C1F10B8FC007049D0 /* Fire.mp3 in Resources */,
+				D83A66381F167389003652FE /* Fire.mp3 in Resources */,
 				D81B65131F0E483E007049D0 /* LaunchScreen.storyboard in Resources */,
 				D81B65101F0E483E007049D0 /* Assets.xcassets in Resources */,
-				D81B652F1F10B8FC007049D0 /* Night forest.mp3 in Resources */,
-				D81B652D1F10B8FC007049D0 /* Forest.mp3 in Resources */,
-				D81B652E1F10B8FC007049D0 /* Island.mp3 in Resources */,
-				D81B65311F10B8FC007049D0 /* Sea.mp3 in Resources */,
-				D81B65331F10B8FC007049D0 /* Village.mp3 in Resources */,
+				D83A663B1F167389003652FE /* Night forest.mp3 in Resources */,
+				D83A66391F167389003652FE /* Forest.mp3 in Resources */,
+				D83A663A1F167389003652FE /* Island.mp3 in Resources */,
+				D83A663D1F167389003652FE /* Sea.mp3 in Resources */,
+				D83A663F1F167389003652FE /* Village.mp3 in Resources */,
 				D81B650B1F0E483E007049D0 /* Main.storyboard in Resources */,
-				D81B652B1F10B8FC007049D0 /* Dolpnins.mp3 in Resources */,
-				D81B65321F10B8FC007049D0 /* Tropic.mp3 in Resources */,
-				D81B652A1F10B8FC007049D0 /* Cat.mp3 in Resources */,
-				D81B65341F10B8FC007049D0 /* Wolf.mp3 in Resources */,
-				D81B65291F10B8FC007049D0 /* Birds.mp3 in Resources */,
-				D81B65301F10B8FC007049D0 /* Rain and thunder.mp3 in Resources */,
+				D83A66361F167389003652FE /* Cat.mp3 in Resources */,
+				D83A663E1F167389003652FE /* Tropic.mp3 in Resources */,
+				D83A66351F167389003652FE /* Birds.mp3 in Resources */,
+				D83A66401F167389003652FE /* Wolf.mp3 in Resources */,
+				D83A66371F167389003652FE /* Dolphins.mp3 in Resources */,
+				D83A663C1F167389003652FE /* Rain and thunder.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,9 +212,9 @@
 			files = (
 				D81B651B1F10B4C3007049D0 /* AmbientSound.swift in Sources */,
 				D81B65081F0E483E007049D0 /* PlayerViewController.swift in Sources */,
+				D8E12D371F165FB7004812CD /* TimerSetupViewController.swift in Sources */,
 				D81B65361F10BEC4007049D0 /* SoundsListTableViewController.swift in Sources */,
 				D81B65381F10D02E007049D0 /* SoundsListTableViewCell.swift in Sources */,
-				D81B650E1F0E483E007049D0 /* Ambient.xcdatamodeld in Sources */,
 				D81B65061F0E483E007049D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,19 +386,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D81B650C1F0E483E007049D0 /* Ambient.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D81B650D1F0E483E007049D0 /* Ambient.xcdatamodel */,
-			);
-			currentVersion = D81B650D1F0E483E007049D0 /* Ambient.xcdatamodel */;
-			path = Ambient.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D81B64FA1F0E483E007049D0 /* Project object */;
 }
