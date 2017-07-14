@@ -11,17 +11,18 @@ import UIKit
 class TimerSetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet weak var timerPickerView: UIPickerView!
     
+    let timerCounts = [("30 Seconds",30.0),("1 Minute",60.0),("5 Minutes",300.0),("10 Minutes",600.0)]
     
-    let pickerData = ["30 seconds", "1 minute", "5 minutes", "10 minutes"]
-    let timerCounts = [30.0, 60.0, 300.0, 600.0]
     var timerCount = Double()
     var playerViewController = PlayerViewController()
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.timerPickerView.delegate = self
         self.timerPickerView.dataSource = self
-        timerCount = timerCounts[0]
+        timerCount = timerCounts[0].1
         
         // Do any additional setup after loading the view.
     }
@@ -32,7 +33,7 @@ class TimerSetupViewController: UIViewController, UIPickerViewDelegate, UIPicker
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        timerCount = timerCounts[row]
+        timerCount = timerCounts[row].1
     }
     
     
@@ -42,13 +43,13 @@ class TimerSetupViewController: UIViewController, UIPickerViewDelegate, UIPicker
     
     // The number of rows of data
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerData.count
+        return timerCounts.count
     }
     
     // The data to return for the row and component (column) that's being passed in
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return pickerData[row]
+        return timerCounts[row].0
     }
     
     
